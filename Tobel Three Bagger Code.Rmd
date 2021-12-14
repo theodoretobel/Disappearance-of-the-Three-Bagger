@@ -1,0 +1,74 @@
+---
+title: "Tobel Three Bagger Code"
+author: "Theo Tobel"
+date: "12/13/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(magrittr)
+read.csv("./data/park_config_stats.csv") -> park_config_stats
+read.csv("./data/experiment_negative.csv") -> experiment_negative
+```
+
+```{r}
+# Create a graph, "Center Field Distance over Time"
+
+plot(mean_cf ~ Year, data = park_config_stats, ylim = c(min(park_config_stats$mean_cf-park_config_stats$sd_cf), max(park_config_stats$mean_cf+park_config_stats$sd_cf)), ylab = "Mean Center Field Distance (in feet)", main = "Center Field Distance over Time", type = "l")
+
+lines(park_config_stats$Year, park_config_stats$mean_cf+park_config_stats$sd_cf, lty = "dotted")
+
+lines(park_config_stats$Year, park_config_stats$mean_cf-park_config_stats$sd_cf, lty = "dotted")
+
+legend("topright", legend = c("Mean", "One Standard Deviation"),
+       lty = c(1,3), cex = 0.7)
+```
+
+```{r}
+# Run Paired T-Test for differences in home runs
+
+t.test(experiment_negative$Change_Year_HR_per_AB, 
+       experiment_negative$Prev_Year_HR_per_AB, paired = TRUE,
+       alternative = "greater")
+```
+
+```{r}
+# Run Paired T-Test for differences in triples
+
+t.test(experiment_negative$Change_Year_Triples_per_AB, 
+       experiment_negative$Prev_Year_Triples_per_AB, paired = TRUE,
+       alternative = "less")
+```
+
+```{r}
+# Create a Q-Q Plot to check the assumption of normality for differences in triples
+
+experiment_negative %>% mutate(Triple_diff = Prev_Year_Triples_per_AB - Change_Year_Triples_per_AB) %>%
+   pull(Triple_diff) %T>% qqnorm %>% qqline
+```
+
+
+```{r}
+# Create a Q-Q Plot to check the assumption of normality for differences in home runs
+
+experiment_negative %>% mutate(HR_diff = Prev_Year_HR_per_AB - Change_Year_HR_per_AB) %>%
+   pull(HR_diff) %T>% qqnorm %>% qqline
+```
+
+```{r}
+# Create a scatter plot for "Year of Change vs. Change in Center Field Distance" for ballparks that decreased in size
+
+ggplot(experiment_negative, aes(Change_Year, CF_change)) +
+  geom_point()+
+  geom_smooth(method = "loess") +
+  xlab("Year of Change") +
+  ylab("Change in Center Field Distance (in feet)") +
+  ggtitle("Year of Change vs. Change in Center Field Distance")
+```
+
+
+
+
+
