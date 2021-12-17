@@ -1,0 +1,288 @@
+Nickname,Stadium,Year,CF_Dim
+Angels,Edison International Field of Anaheim,1999,400
+Angels,Edison International Field of Anaheim,1998,408
+Angels,Anaheim Stadium,1974,404
+Angels,Anaheim Stadium,1973,402
+Angels,Anaheim Stadium,1966,406
+Angels,Dodger Stadium,1962,410
+Angels,Wrigley Field,1961,412
+Astros,Colt Stadium,1962,420
+Astros,Minute Maid Park,2017,409
+Astros,Enron Field,2000,436
+Astros,Astrodome,1985,400
+Astros,Astrodome,1977,406
+Astros,Astrodome,1972,400
+Astros,Astrodome,1965,406
+Astros,Colt Stadium,1963,450
+Athletics,Oakland-Alameda County Coliseum,1990,400
+Athletics,Oakland-Alameda County Coliseum,1982,397
+Athletics,Oakland-Alameda County Coliseum,1981,396
+Athletics,Oakland-Alameda County Coliseum,1968,410
+Athletics,Columbia Park,1901,396
+Athletics,Municipal Stadium,1965,421
+Athletics,Municipal Stadium,1964,410
+Athletics,Municipal Stadium,1956,421
+Athletics,Municipal Stadium,1955,430
+Athletics,Shibe Park,1909,481
+Blue Jays,Exhibition Stadium,1989,410
+Blue Jays,SkyDome,1989,400
+Blue Jays,Exhibition Stadium,1977,400
+Braves,South End Grounds III,1912,386
+Braves,SunTrust Park,2017,400
+Braves,Turner Field,1997,401
+Braves,Atlanta Stadium,1973,402
+Braves,Atlanta Stadium,1969,400
+Braves,Atlanta Stadium,1966,402
+Braves,County Stadium,1955,402
+Braves,County Stadium,1954,410
+Braves,County Stadium,1953,404
+Braves,Braves Field,1946,370
+Braves,Braves Field,1945,380
+Braves,Braves Field,1944,390
+Braves,Braves Field,1943,370
+Braves,Braves Field,1942,375
+Braves,Braves Field,1941,401
+Braves,Braves Field,1940,385
+Braves,Braves Field,1939,408
+Braves,Braves Field,1937,407
+Braves,Braves Field,1936,426
+Braves,Braves Field,1933,417
+Braves,Braves Field,1931,387
+Braves,Braves Field,1930,395
+Braves,Braves Field,1928,387
+Braves,Braves Field,1926,520
+Braves,Braves Field,1915,461
+Braves,South End Grounds III,1908,378
+Braves,South End Grounds III,1900,416
+Brewers,Miller Park,2001,400
+Brewers,County Stadium,1970,402
+Pilots,Sick's Stadium,1969,400
+Cardinals,Busch Stadium III,2006,400
+Cardinals,Busch Stadium II,1992,402
+Cardinals,Busch Memorial Stadium,1977,414
+Cardinals,Busch Memorial Stadium,1973,404
+Cardinals,Busch Memorial Stadium,1972,414
+Cardinals,Busch Memorial Stadium,1971,410
+Cardinals,Busch Memorial Stadium,1966,414
+Cardinals,Sportsman's Park III,1939,422
+Cardinals,Sportsman's Park III,1938,420
+Cardinals,Sportsman's Park III,1936,445
+Cardinals,Sportsman's Park III,1929,450
+Cardinals,Sportsman's Park III,1926,430
+Cardinals,League Park III,1908,455
+Cardinals,League Park,1900,425
+Cardinals,League Park,1902,441
+Cardinals,Sportsman's Park II,1902,390
+Cardinals,Sportsman's Park III,1911,420
+Cardinals,Sportsman's Park III,1909,445
+Cubs,Wrigley Field,1938,400
+Cubs,Wrigley Field,1928,436
+Cubs,Cubs Park,1923,420
+Cubs,Wrigley Field,1916,425
+Cubs,West Side Grounds,1913,450
+Cubs,West Side Grounds,1908,418
+Cubs,West Side Grounds,1905,450
+Cubs,West Side Grounds,1901,448
+Cubs,West Side Grounds,1900,482
+Diamondbacks,Bank One Ballpark,1998,407
+Dodgers,Dodger Stadium,1969,400
+Dodgers,Dodger Stadium,1962,410
+Dodgers,Los Angeles Memorial Coliseum,1959,420
+Dodgers,Los Angeles Memorial Coliseum,1958,425
+Dodgers,Ebbets Field,1947,384
+Dodgers,Ebbets Field,1940,402
+Dodgers,Ebbets Field,1939,399
+Dodgers,Ebbets Field,1938,402
+Dodgers,Ebbets Field,1931,399
+Dodgers,Ebbets Field,1914,496
+Dodgers,Ebbets Field,1913,507
+Dodgers,Washington Park III,1908,425
+Dodgers,Washington Park III,1900,417
+Expos,Stade Olympique,1982,404
+Expos,Stade Olympique,1981,400
+Expos,Stade Olympique,1980,404
+Expos,Stade Olympique,1979,405
+Expos,Stade Olympique,1977,404
+Expos,Parc Jarry,1974,420
+Expos,Parc Jarry,1971,417
+Expos,Parc Jarry,1969,415
+Giants,Polo Grounds V,1927,485
+Giants,Pacific Bell Park,2000,399
+Giants,Candlestick Park,1982,400
+Giants,Candlestick Park,1961,410
+Giants,Candlestick Park,1960,420
+Giants,Seals Stadium,1959,400
+Giants,Seals Stadium,1958,410
+Giants,Polo Grounds V,1955,480
+Giants,Polo Grounds V,1954,483
+Giants,Polo Grounds V,1953,480
+Giants,Polo Grounds V,1952,483
+Giants,Polo Grounds V,1949,505
+Giants,Polo Grounds V,1947,484
+Giants,Polo Grounds V,1946,490
+Giants,Polo Grounds V,1945,480
+Giants,Polo Grounds V,1944,505
+Giants,Polo Grounds V,1943,490
+Giants,Polo Grounds V,1930,505
+Giants,Polo Grounds V,1923,483
+Giants,Polo Grounds IV,1909,433
+Giants,Polo Grounds IV,1900,500
+Indians,Somers Park,1910,420
+Indians,Jacobs Field,1994,405
+Indians,Cleveland Stadium,1970,400
+Indians,Cleveland Stadium,1968,410
+Indians,Cleveland Stadium,1967,407
+Indians,Cleveland Stadium,1966,408
+Indians,Municipal Stadium,1965,421
+Indians,Municipal Stadium,1964,410
+Indians,Municipal Stadium,1956,421
+Indians,Municipal Stadium,1955,430
+Indians,Cleveland Stadium,1949,410
+Indians,Cleveland Stadium,1948,380
+Indians,Cleveland Stadium,1947,410
+Indians,Cleveland Stadium,1939,450
+Indians,Cleveland Stadium,1938,467
+Indians,Cleveland Stadium,1932,470
+Indians,National League Park,1900,408
+Mariners,Safeco Field,2013,401
+Mariners,Safeco Field,1999,405
+Mariners,Kingdome,1991,410
+Mariners,Kingdome,1981,405
+Mariners,Kingdome,1978,410
+Mariners,Kingdome,1977,405
+Marlins,Marlins Park,2016,407
+Marlins,Marlins Park,2014,418
+Marlins,Marlins Park,2012,415
+Marlins,Joe Robbie Stadium,1994,404
+Marlins,Joe Robbie Stadium,1993,410
+Mets,Citi Field,2009,408
+Mets,Shea Stadium,1964,410
+Mets,Polo Grounds V,1963,483
+Mets,Polo Grounds V,1962,475
+Nationals,Nationals Park,2008,402
+Nationals,Robert F. Kennedy Stadium,2005,408
+Orioles,Oriole Park at Camden Yards,2002,400
+Orioles,Oriole Park at Camden Yards,2001,407
+Orioles,Oriole Park at Camden Yards,1992,400
+Orioles,Memorial Stadium,1980,405
+Orioles,Memorial Stadium,1978,410
+Orioles,Memorial Stadium,1977,405
+Orioles,Memorial Stadium,1976,400
+Orioles,Memorial Stadium,1958,410
+Orioles,Memorial Stadium,1956,425
+Orioles,Memorial Stadium,1955,450
+Orioles,Memorial Stadium,1954,445
+Browns,Terrapin Park,1915,347
+Browns,Terrapin Park,1914,384
+Browns,Oriole Park IV,1901,405
+Padres,Petco Park,2004,396
+Padres,San Diego Stadium,1978,420
+Padres,San Diego Stadium,1973,410
+Padres,San Diego Stadium,1969,420
+Padres,Jack Murphy Stadium,1981,405
+Phillies,Citizens Bank Park,2004,401
+Phillies,Veterans Stadium,1971,408
+Phillies,Connie Mack Stadium,1969,410
+Phillies,Connie Mack Stadium,1956,447
+Phillies,Connie Mack Stadium,1954,468
+Phillies,Shibe Park,1953,460
+Phillies,Shibe Park,1951,440
+Phillies,Shibe Park,1950,448
+Phillies,Shibe Park,1922,468
+Phillies,Shibe Park,1920,502
+Phillies,Baker Bowl,1918,408
+Phillies,Baker Bowl,1914,388
+Phillies,Baker Bowl,1900,408
+Pirates,PNC Park,2001,399
+Pirates,Three Rivers Stadium,1975,400
+Pirates,Three Rivers Stadium,1970,410
+Pirates,Forbes Field,1930,435
+Pirates,Forbes Field,1925,442
+Pirates,Exposition Park III,1900,515
+Pirates,Forbes Field,1911,409
+Pirates,Forbes Field,1909,417
+Rangers,The Ballpark in Arlington,1994,400
+Rangers,Arlington Stadium,1972,400
+Senators,D.C. Stadium,1962,410
+Devil Rays,Tropicana Field,1999,404
+Devil Rays,Tropicana Field,1998,407
+Red Sox,Fenway Park,1936,390
+Red Sox,Fenway Park,1934,389
+Red Sox,Fenway Park,1930,468
+Red Sox,Fenway Park,1926,421
+Red Sox,Fenway Park,1922,488
+Red Sox,Fenway Park,1912,458
+Red Sox,Huntington Avenue Baseball Grounds,1909,456
+Red Sox,Huntington Avenue Baseball Grounds,1901,530
+Reds,League Park II,1900,414
+Reds,Redland Field,1912,420
+Reds,Great American Ballpark,2003,404
+Reds,Cinergy Field,2001,393
+Reds,Crosley Field,1955,387
+Reds,Crosley Field,1944,390
+Reds,Crosley Field,1938,375
+Reds,Redland Field,1927,400
+Reds,Redland Field,1912,420
+Reds,Palace of the Fans,1902,400
+Rockies,Coors Field,1995,415
+Rockies,Mile High Stadium,1993,423
+Royals,Kauffman Stadium,2004,410
+Royals,Kauffman Stadium,1995,400
+Royals,Royals Stadium,1980,410
+Royals,Royals Stadium,1973,405
+Royals,Municipal Stadium,1969,405
+Senators,Griffith Stadium,1960,409
+Senators,Griffith Stadium,1956,395
+Senators,Griffith Stadium,1954,409
+Senators,Griffith Stadium,1950,395
+Senators,Griffith Stadium,1929,409
+Senators,Griffith Stadium,1924,412
+Senators,National Park,1921,465
+Senators,American League Park I,1901,438
+Senators,American League Park II,1907,402
+Senators,American League Park II,1904,399
+Tigers,Bennett Park,1901,432
+Tigers,Comerica Park,2000,420
+Tigers,Briggs Stadium,1955,425
+Tigers,Briggs Stadium,1954,415
+Tigers,Briggs Stadium,1950,425
+Tigers,Briggs Stadium,1939,437
+Tigers,Briggs Stadium,1938,447
+Tigers,Navin Field,1936,452
+Tigers,Navin Field,1912,475
+Tigers,Bennett Park,1908,490
+Twins,Target Field,2010,404
+Twins,Hubert H. Humphrey Metrodome,1983,408
+Twins,Hubert H. Humphrey Metrodome,1982,407
+Twins,Metropolitan Stadium,1965,402
+Twins,Metropolitan Stadium,1962,425
+Twins,Metropolitan Stadium,1961,412
+White Sox,South Side Park III,1901,405
+White Sox,White Sox Park II,1910,420
+White Sox,Comiskey Park II,1991,400
+White Sox,Comiskey Park I,1986,409
+White Sox,Comiskey Park I,1983,401
+White Sox,Comiskey Park I,1981,409
+White Sox,Comiskey Park I,1977,445
+White Sox,Comiskey Park I,1976,440
+White Sox,Comiskey Park I,1969,400
+White Sox,Comiskey Park I,1951,410
+White Sox,Comiskey Park I,1949,415
+White Sox,Comiskey Park I,1936,440
+White Sox,Comiskey Park I,1934,436
+White Sox,Comiskey Park I,1930,450
+White Sox,Comiskey Park I,1927,455
+White Sox,Comiskey Park I,1926,450
+Yankees,New Yankee Stadium,2009,408
+Yankees,Yankee Stadium I,1988,408
+Yankees,Yankee Stadium I,1985,410
+Yankees,Yankee Stadium I,1976,417
+Yankees,Shea Stadium,1974,410
+Yankees,Yankee Stadium I,1937,449
+Yankees,Yankee Stadium I,1924,470
+Yankees,Yankee Stadium I,1923,487
+Yankees,Polo Grounds,1913,433
+Yankees,Hilltop Park,1911,370
+Yankees,Hilltop Park,1907,409
+Yankees,Hilltop Park,1904,420
+Yankees,Hilltop Park,1903,380
