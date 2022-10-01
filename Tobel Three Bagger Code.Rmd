@@ -68,7 +68,38 @@ ggplot(experiment_negative, aes(Change_Year, CF_change)) +
   ggtitle("Year of Change vs. Change in Center Field Distance")
 ```
 
+```{r}
+rates_by_park %>%
+  left_join(park_config_all, by = c("Park_ID"="parkID", "Year")) -> for_regression
+```
 
+```{r}
+for_regression %>%
+  filter(GP > 30) %>%
+  ggplot(aes(CF_Dim, log(Triples_per_AB), color = Year)) +
+  geom_point() +
+  geom_smooth(method = "lm") +
+  scale_x_reverse() +
+  theme_classic() +
+  ggtitle("Center Field Distance vs. Triples per At Bat") +
+  ylab("Triples per At Bat (Log)") +
+  xlab("Center Field Distance")
+```
 
+```{r}
+# model 1: simple regression model
+
+model_1 <- lm(log(Triples_per_AB)~CF_Dim, data = for_regression, subset = GP > 30) 
+
+summary(model_1)
+```
+
+```{r}
+# model 2: multivariate model
+
+model_2 <- lm(log(Triples_per_AB)~CF_Dim + TeamID*Year, data = for_regression, subset = GP > 30) 
+
+summary(model_2)
+```
 
 
